@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn==1.6.1
+matplotlib
+seaborn
+fastapi
+uvicorn
+joblib
+python-dotenv
+torch
