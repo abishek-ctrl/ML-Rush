@@ -1,0 +1,29 @@
+# Models (store via GitHub Releases or DVC)
+models/*.pkl
+models/*.pt
+
+# Data
+data/raw/
+data/processed/*.csv
+data/*.csv
+
+# Environment
+.env
+
+# Dockerfiles (kept out of repo)
+Dockerfile
+p01-house-price-prediction/Dockerfile
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
